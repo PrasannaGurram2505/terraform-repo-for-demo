@@ -13,9 +13,7 @@ jobs:
     name: Deploy EC2 Instance via Terraform
     runs-on: ubuntu-latest
 
-    defaults:
-      run:
-        working-directory: terraform
+   
 
     steps:
       - name: Checkout repository
